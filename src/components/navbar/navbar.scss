@@ -64,9 +64,9 @@
           width: 200px;
           font-weight: 300;
 
-          span {
+          .link {
             &:hover {
-              font-weight: 500;
+              color: darkgray;
             }
           }
         }
@@ -102,5 +102,11 @@
     font-weight: 300;
     color: gray;
     font-family: "Montserrat", sans-serif;
+
+    .link {
+      &:hover {
+        color: darkgray;
+      }
+    }
   }
 }
