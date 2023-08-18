@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #013914;
+  color: white;
+  //   overflow: hidden;
+
+  .container {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .logo {
+      font-size: 34px;
+      font-weight: bold;
+
+      .text {
+      }
+      .dot {
+        color: #1dbf73;
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+
+      button {
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid white;
+        cursor: pointer;
+        background-color: transparent;
+
+        &:hover {
+          border-color: #1dbf73;
+          background-color: #1dbf73;
+        }
+      }
+    }
+  }
+
+  hr {
+    width: calc(100% - 1px);
+    height: 0px;
+    border: 0.5px solid lightgray;
+  }
+
+  .menu {
+    width: 1400px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+  }
+}
