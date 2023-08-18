@@ -4,7 +4,14 @@
   align-items: center;
   background-color: #013914;
   color: white;
-  //   overflow: hidden;
+  transition: 0.5s all ease;
+  position: sticky;
+  top: 0;
+
+  &.active {
+    background-color: white;
+    color: black;
+  }
 
   .container {
     width: 1400px;
@@ -16,8 +23,6 @@
       font-size: 34px;
       font-weight: bold;
 
-      .text {
-      }
       .dot {
         color: #1dbf73;
       }
