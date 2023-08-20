@@ -1,28 +1,33 @@
 .message {
   display: flex;
   justify-content: center;
+
   .container {
-    width: 1200px;
+    width: 900px;
     margin: 50px;
+
     .breadcrumbs {
       font-weight: 300;
       font-size: 13px;
       color: #555;
     }
+
     .messages {
       margin: 30px 0px;
       padding: 50px;
       display: flex;
       flex-direction: column;
+      justify-content: start;
       gap: 20px;
-      height: 500px;
-      overflow: scroll;
+      height: 400px;
+      overflow-y: scroll;
 
       .item {
         display: flex;
         gap: 20px;
         max-width: 600px;
-        font-size: 18px;
+        font-size: 14px;
+        // font-weight: 500;
 
         &.owner {
           flex-direction: row-reverse;
@@ -67,7 +72,7 @@
 
       textarea {
         width: 80%;
-        height: 100px;
+        height: 70px;
         padding: 10px;
         border: 1px solid lightgray;
         border-radius: 10px;
