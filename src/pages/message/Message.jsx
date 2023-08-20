@@ -19,8 +19,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -31,8 +31,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -43,8 +43,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -55,8 +55,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -67,8 +67,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -79,8 +79,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -91,8 +91,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
@@ -103,8 +103,8 @@ const Message = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure
-              mollitia perspiciatis officiis voluptate? Sequi quae officia
+              4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              iure mollitia perspiciatis officiis voluptate? Sequi quae officia
               possimus, iusto labore alias mollitia eveniet nemo placeat
               laboriosam nisi animi! Error, tenetur!
             </p>
