@@ -1,8 +1,19 @@
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import "./message.scss";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Message = () => {
+  const containerRef = useRef(null);
+  useEffect(() => {
+    if (containerRef && containerRef.current) {
+      const element = containerRef.current;
+      element.scroll({
+        top: element.scrollHeight,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [containerRef]);
   return (
     <div className="message">
       <div className="container">
@@ -12,7 +23,7 @@ const Message = () => {
           </Link>{" "}
           {">"} JOHN DOE
         </span>
-        <div className="messages">
+        <div className="messages" ref={containerRef}>
           <div className="item">
             <img
               src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600"
