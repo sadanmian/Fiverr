@@ -13,6 +13,7 @@ const Gig = () => {
             <img
               src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
+              className="pp"
             />
             <span>John</span>
             <div className="stars">
@@ -24,7 +25,7 @@ const Gig = () => {
               <span>5</span>
             </div>
           </div>
-          <Slider slideToShow={1} arrowsScroll={1}>
+          <Slider slideToShow={1} arrowsScroll={1} className={"slider"}>
             <img
               src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
@@ -108,8 +109,177 @@ const Gig = () => {
               </p>
             </div>
           </div>
+          <div className="reviews">
+            <h2>Reviews</h2>
+            <div className="item">
+              <div className="user">
+                <img
+                  className="pp"
+                  src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  alt=""
+                />
+                <div className="info">
+                  <span>Garner David</span>
+                  <div className="country">
+                    <img
+                      src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
+                      alt=""
+                    />
+                    <span>United States</span>
+                  </div>
+                </div>
+              </div>
+              <div className="stars">
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <span>5</span>
+              </div>
+              <p>
+                I just want to say that art_with_ai was the first, and after
+                this, the only artist Ill be using on Fiverr. Communication was
+                amazing, each and every day he sent me images that I was free to
+                request changes to. They listened, understood, and delivered
+                above and beyond my expectations. I absolutely recommend this
+                gig, and know already that Ill be using it again very very soon
+              </p>
+              <div className="helpful">
+                <span>Helpful?</span>
+                <img src="/img/like.png" alt="" />
+                <span>Yes</span>
+                <img src="/img/dislike.png" alt="" />
+                <span>No</span>
+              </div>
+            </div>
+            <hr />
+            <div className="item">
+              <div className="user">
+                <img
+                  className="pp"
+                  src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  alt=""
+                />
+                <div className="info">
+                  <span>Garner David</span>
+                  <div className="country">
+                    <img
+                      src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
+                      alt=""
+                    />
+                    <span>United States</span>
+                  </div>
+                </div>
+              </div>
+              <div className="stars">
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <span>5</span>
+              </div>
+              <p>
+                I just want to say that art_with_ai was the first, and after
+                this, the only artist Ill be using on Fiverr. Communication was
+                amazing, each and every day he sent me images that I was free to
+                request changes to. They listened, understood, and delivered
+                above and beyond my expectations. I absolutely recommend this
+                gig, and know already that Ill be using it again very very soon
+              </p>
+              <div className="helpful">
+                <span>Helpful?</span>
+                <img src="/img/like.png" alt="" />
+                <span>Yes</span>
+                <img src="/img/dislike.png" alt="" />
+                <span>No</span>
+              </div>
+            </div>
+            <hr />
+            <div className="item">
+              <div className="user">
+                <img
+                  className="pp"
+                  src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                  alt=""
+                />
+                <div className="info">
+                  <span>Garner David</span>
+                  <div className="country">
+                    <img
+                      src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
+                      alt=""
+                    />
+                    <span>United States</span>
+                  </div>
+                </div>
+              </div>
+              <div className="stars">
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <img src="/img/star.png" alt="" />
+                <span>5</span>
+              </div>
+              <p>
+                I just want to say that art_with_ai was the first, and after
+                this, the only artist Ill be using on Fiverr. Communication was
+                amazing, each and every day he sent me images that I was free to
+                request changes to. They listened, understood, and delivered
+                above and beyond my expectations. I absolutely recommend this
+                gig, and know already that Ill be using it again very very soon
+              </p>
+              <div className="helpful">
+                <span>Helpful?</span>
+                <img src="/img/like.png" alt="" />
+                <span>Yes</span>
+                <img src="/img/dislike.png" alt="" />
+                <span>No</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="price">
+            <h3>1 AI generated image</h3>
+            <h2>$ 59.99</h2>
+          </div>
+          <p>
+            I will create a unique high quality AI generated image based on a
+            description that you give me
+          </p>
+          <div className="details">
+            <div className="item">
+              <img src="/img/clock.png" alt="" />
+              <span>2 days Delivery</span>
+            </div>
+            <div className="item">
+              <img src="/img/recycle.png" alt="" />
+              <span>3 Revisions</span>
+            </div>
+          </div>
+          <div className="features">
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Prompt writing</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Artwork delivery</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Image upscaling</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.png" alt="" />
+              <span>Additional design</span>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
       </div>
     </div>
   );
