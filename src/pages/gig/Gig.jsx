@@ -7,7 +7,9 @@ const Gig = () => {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadCrumbs">FIVERR > GRAPHICS & DESIGN ></span>
+          <span className="breadCrumbs">
+            FIVERR {">"} GRAPHICS & DESIGN {">"}
+          </span>
           <h1>I will create AI generated art for you</h1>
           <div className="user">
             <img
