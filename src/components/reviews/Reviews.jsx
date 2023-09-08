@@ -28,6 +28,8 @@ const Reviews = ({ gigId }) => {
     const desc = e.target[0].value;
     const star = e.target[1].value;
     mutation.mutate({ gigId, desc, star });
+    e.target[0].value = "";
+    e.target[1].value = 1;
   };
 
   return (
