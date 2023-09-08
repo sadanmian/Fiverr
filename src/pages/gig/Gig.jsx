@@ -4,6 +4,7 @@ import { Slider } from "infinite-react-carousel/lib";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import newRequest from "../../utils/newRequest";
+import Reviews from "../../components/reviews/Reviews";
 
 function Gig() {
   const { id } = useParams();
@@ -129,6 +130,7 @@ function Gig() {
                 </div>
               </div>
             )}
+            <Reviews gigId={id} />
           </div>
           <div className="right">
             <div className="price">
