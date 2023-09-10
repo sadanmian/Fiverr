@@ -1,13 +1,14 @@
 .orders {
   display: flex;
   justify-content: center;
+  color: #555;
+
   .container {
     width: 1400px;
-    padding: 50px 0;
+    padding: 50px 0px;
 
     .title {
       display: flex;
-      align-items: center;
       justify-content: space-between;
 
       button {
@@ -25,24 +26,25 @@
 
       tr {
         height: 50px;
-
         th {
           text-align: left;
         }
-
         td {
+          sup {
+            font-size: 12px;
+          }
+
           .image {
             width: 50px;
             height: 25px;
             object-fit: cover;
           }
 
-          .delete {
-            width: 20px;
+          .message {
+            width: 25px;
             cursor: pointer;
           }
         }
-
         &:nth-child(even) {
           background-color: #1dbf730f;
         }
