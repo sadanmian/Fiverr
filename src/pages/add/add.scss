@@ -4,12 +4,13 @@
 
   .container {
     width: 1400px;
-    padding: 50px 0;
+    padding: 50px 0px;
 
     h1 {
+      width: max-content;
+      margin-bottom: 30px;
       color: gray;
       font-weight: 300;
-      margin-bottom: 30px;
     }
 
     .sections {
@@ -17,34 +18,71 @@
       justify-content: space-between;
       gap: 100px;
 
-      .left,
-      .right {
+      label {
+        color: gray;
+        font-size: 18px;
+      }
+
+      .info,
+      .details {
         flex: 1;
         display: flex;
         flex-direction: column;
         gap: 10px;
         justify-content: space-between;
 
-        label {
-          color: gray;
-          font-size: 18px;
-        }
-
         input,
         select,
         textarea {
           padding: 20px;
-          outline: none;
+        }
+
+        .images{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          .imagesInputs{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
         }
 
         button {
           border: none;
           padding: 20px;
-          background-color: #1dbf73;
           color: white;
-          cursor: pointer;
           font-weight: 500;
           font-size: 18px;
+          background-color: #1dbf73;
+          cursor: pointer;
+        }
+
+        .add{
+          display: flex;
+          justify-content: space-between;
+
+          input{
+            width: 80%;
+          }
+        }
+
+        .addedFeatures{
+          display: flex;
+          gap: 20px;
+
+          button{
+            height: 30px;
+            font-size: 12px;
+            font-weight: 400;
+            background: transparent;
+            color: red;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+          }
         }
       }
     }
