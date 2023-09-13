@@ -15,6 +15,7 @@ const Register = () => {
     isSeller: false,
     desc: "",
   });
+  const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
 
@@ -37,6 +38,7 @@ const Register = () => {
   };
 
   const handleSubmit = async (event) => {
+    setLoading(true);
     event.preventDefault();
     const url = await upload(file);
     try {
@@ -45,6 +47,7 @@ const Register = () => {
         img: url,
       });
       navigate("/");
+      setLoading(false);
     } catch (error) {
       console.log(error);
     }
@@ -73,7 +76,7 @@ const Register = () => {
           <label htmlFor="">Country</label>
           <input name="country" type="text" onChange={handleChange} />
 
-          <button type="submit">Register</button>
+          <button type="submit">{loading ? "Loading..." : "Register"}</button>
         </div>
         <div className="right">
           <h1>I want to become a seller</h1>

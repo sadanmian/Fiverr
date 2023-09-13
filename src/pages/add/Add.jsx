@@ -62,7 +62,7 @@ const Add = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     mutation.mutate(state);
-    navigate("/gigs?cat=");
+    navigate("/mygigs");
   };
 
   return (

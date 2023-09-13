@@ -13,7 +13,7 @@ const upload = async (file) => {
     const { url } = res.data;
     return url;
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 
